@@ -1,131 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harish Anand</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="logo.png">
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
- 
-</head>
-<body>
-    <!--header-->
-    <div id="container">
-        <div id="header">
-           <h1>Harish</h1>
-        </div>
-    </div>
-    <div id="content">
-        <h3>Navigation bar</h3>
-        <div id="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#login">Login</a></li>
-        </div>
-    </div>
-    <!--End header-->
-        <!--Home-->
-        <section id="home">
-            <br><br><br>
-        <table>
-        <tr>
-            <td> 
-                <table>   
-            <div id="main">
-            <div id="img">
-       
-            <div>
-                <marquee behavior="alternate" direction="left" scrollamount="2">
-                    <font face="arial" color="#ffffff" size="6">
-                    Hi, Welcome to my website
-                   </font>
-                  </marquee>
-            </div>
-            </div>
-        </div>
-        </table>
-        </td>
-        </tr>
-        </table>
-        </section>
-        <!--End Home-->
-        <!--About-->
-        <section id="about">
-            <table>
-                    <div id="About">
-                        <div id="h1">
-                    <font>About me</font>
-                        </div>
-                        <div id="h2">
-                            <font>Hi I am Harish Anand, I'm studying 3rd std and I'm 8 yrs old</font>
-                        </div>
-                    </div>
-                        </table>
-                        </div>
-                
-            </table>
-        </section>
-        <!--End About-->
-        <!--Login-->
-        <section id="login">
- <!DOCTYPE HTML>
+<meta charset="utf-8">
+<title>Harish Anand</title>
+<link rel="icon" href="logo.png">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<style>
+  body{
+  background-color: #292929;
+  font-family: Century Gothic;
+  margin: 0px;
+}
+.left-nav h1{
+  color: white;
+  padding-left:100px;
+}
+
+.right-nav{
+  background-color: #44ccb8;
+  width: 20%;
+}
+.right-nav ul{
+  display: inline-block;
+}
+.right-nav ul li{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.right-nav h1{
+  color: #fff;
+  padding-left: 0px;
+}
+
+.home{
+  background-color: 44ccb8;
+}
+.home h2{
+   color: #fff;
+   text-align: center;
+   padding-top:150pxpx;
+   font-size: xxx-large; 
+   background-color: 44ccb8;
+}
+.home h3{
+   color: #fff;
+   text-align: center;
+   font-size: larger;
+}
+.home h5{
+   color: #fff;
+   text-align: center;
+   font-size: larger;
+}
+/*About*/
+.about h1{
+   color: #fff;
+   text-align: center;
+   font-size: xxx-large;
+}
+.about h6{
+   color: #fff;
+   text-align: center;
+   font-size: x-large;
+}
+
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  width: 400px;
+  align-items: center;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+.lgbtn{
+  width: 70px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+color: #f1f1f1;
+width: 50%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+</style>
 <html>
-<head>
-  <title>Login</title>
-  <link rel="icon" href="static/Logo.png">
-</head>
-<body>
-  <font><a href="/">Back</a></font>
- <form action="/submit_form" method="POST">
-  <table>
-   <tr>
-    <td style="color: #006d6d; font-family: sans-serif;">Name :</td>
-    <td><input type="text" name="username" required></td>
-   </tr>
-   <tr>
-    <td style="color: #006d6d; font-family: sans-serif;">Password :</td>
-    <td><input type="password" name="password" required></td>
-   </tr>
-   <tr>
-    <td style="color: #006d6d; font-family: sans-serif;">Gender :</td>
-    <td>
-     <input type="radio" name="gender" value="m" required>Male
-     <input type="radio" name="gender" value="f" required>Female
-    </td>
-   </tr>
-   <tr>
-    <td style="color: #006d6d; font-family: sans-serif;">Email :</td>
-    <td><input type="email" name="email" required></td>
-   </tr> 
-   <tr>
-    <td style="color: #006d6d; font-family: sans-serif;">Phone no :</td>
-    <td>
-     <select name="phoneCode" required>
-      <option selected hidden value="">Select Code</option>
-      <option value="977">91</option>
-      <option value="978">978</option>
-      <option value="979">979</option>
-      <option value="973">973</option>
-      <option value="972">972</option>
-      <option value="974">974</option>
-     </select>
-     <input type="phone" name="phone" required>
-    </td>
-   </tr>
-   <tr>
-    <td><input type="submit" value="Submit"></td>
-   </tr>
-  </table>
- </form>
-<font><a href="/login">&copy;login</a></font>
-</body>
-</html>
+  <head>
+     <body>
+        <!--Header-->
+	<div class="left-nav">
+        <h1>Harish Anand</h1>
+	</div>
+        <div class="right-nav">
+        <ul>
+        <h1>Nav bar</h1>
+     	<li><a href="#Home">Home</a></li>
+    	<li><a href="#about">About</a></li>
+	<li><a href="#login">Login</a></li>
+        </ul>
+        </div>
+        <!--End Header-->
+        <!--Home-->
+        
+  	<section id="Home">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="home">
+        <h2>WelCome</h2>
+        <h3>to my web</h3>
+        <h5>Hi welcome to our website</h5>
+        </div>
+	</section>
+	<!--End Home>
+  </--About-->
+        <br><br><br><br><br><br><br><br>
+ 	<section id="about">
+  	<br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="about">
+        <h1>About me</h1>
+	<h6>Hi I am Harish Anand and I am studying 3rd std and 8yrs old.</h6>
+ 	</div>
+        </section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <section id="login">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="login.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"  style="color: #f1f1f1;"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"  style="color: #f1f1f1;"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="lgbtn">Login</button>
+    <label style="color: #f1f1f1;">
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+</form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </section>
-<!--End Login-->
+     </body>
+  </head>
 <script>
-    var scroll = new SmoothScroll('a[href*="#"]');
+	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
-</body>
 </html>
